@@ -19,3 +19,9 @@ jobs:
 
    - name: say my name is shrawani to username
      run: echo " shrawani $USER"
+
+  details:
+    runs-on: ubuntu-latest
+    steps:
+       - name: version of python, docker, etc
+         run: docker --version && python --version
