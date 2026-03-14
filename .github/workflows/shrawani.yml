@@ -1,0 +1,21 @@
+# this is workflow name
+name: shrawani
+
+# runs on a trigger
+on:
+ push:
+   branches: [main]
+
+# these are jobs inside the workflow
+jobs:
+
+ # this is name of the job
+ devops:
+   # this is github runner
+  runs-on: ubuntu-latest
+  steps:
+   - name: say my name is shrawani to user
+     run: echo "hello shrawani"
+
+   - name: say my name is shrawani to username
+     run: echo " shrawani $USER"
