@@ -20,7 +20,7 @@ jobs:
    - name: say my name is shrawani to username
      run: echo " shrawani $USER"
 
-  details:
+ details:
     runs-on: ubuntu-latest
     steps:
        - name: version of python, docker, etc
