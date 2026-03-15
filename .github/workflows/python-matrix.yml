@@ -21,7 +21,7 @@ jobs:
               python-version: "3.13"
 
           - name: install dependencies
-            run: pip install -r github-action/requirements.txt
+            run: pip install -r github-action-workflow1/requirements.txt
               
 
           - name: run linter
